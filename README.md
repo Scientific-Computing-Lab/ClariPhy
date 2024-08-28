@@ -53,8 +53,8 @@ val:
 dataroot_gt: ./restormer/blur/ClariPhy/test/target
 dataroot_lq: ./restormer/blur/ClariPhy/test/input
 ```
-2. change the number of iterations
-3. change from progressive training to single fixed-patch size
+2. Change the number of iterations
+3. Change from progressive training to single fixed-patch size
 4. Running on GPU is necessary in order to load our models. Make sure you are using a GPU.
 
 ### Test
