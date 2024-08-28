@@ -1,0 +1,5 @@
+name: blur
+channels:
+  - conda-forge
+  - defaults
+prefix: /home/nadavsc/.conda/envs/blur
