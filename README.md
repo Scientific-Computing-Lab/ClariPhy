@@ -9,7 +9,7 @@ Recent advances in deep learning have greatly improved image deblurring for natu
 In order to test the fine-tuned model you should create the original restormer enviroment and download the fine tuned model as explained later.
 To train or test you need 2 enviroments. 
 1. Restormer enviroment (pytorch181) [here](https://github.com/swz30/Restormer/blob/main/INSTALL.md#installation).
-2. ClariPhy enviroment
+2. ClariPhy enviroment.
    
 ## Requirments
 First, clone the code provided here.
@@ -34,7 +34,7 @@ If you found these codes useful for your research, please consider citing:
 
 ### Scripts
 There are several scripts:
-1. **blur_python_code.py** - blurres aecific file or folder.
+1. **blur_python_code.py** - blurres specific file or folder.
 2. **build_DB.py** - creating database of blurred images.
 3. **DB_org.py/DB_org_small.py** - creates images paired to fit the requrerments of training with the restormer model.
 4. **test_folder_example.py** - After trainign you can use this to test the model on a folder.
