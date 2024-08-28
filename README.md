@@ -27,11 +27,6 @@ Then, activate your environment:
 conda activate <ClariPhy>
 ```
 
-
-# Citation
-For more information about the measures and their means of the implementations, please refer to the paper.
-If you found these codes useful for your research, please consider citing: 
-
 # Running
 
 ### Scripts
