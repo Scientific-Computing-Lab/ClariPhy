@@ -59,7 +59,7 @@ dataroot_lq: ./restormer/blur/ClariPhy/test/input
 
 ### Test
 To test the fine-tuned models, download the models [here](https://drive.google.com/drive/folders/1daqm3VdqUUWxvqipqGbqQLCAGlrj80A7) and place it in the following path: ./Motion_Deblurring/pretrained_models/ (in the Restormer repository). Change the name of the model to  motion_deblurring.pth. Then follow the intructions [here](https://github.com/swz30/Restormer/blob/main/Motion_Deblurring/README.md#testing-on-gopro-dataset).
-In case you wan tto save the model name (for example, to use test_folder_example.py, explained later), you can save the model name and exchange the file demo.py in the restormer repository to demo.py here. 
+In case you wan to save the model name (for example, to use test_folder_example.py, explained later), you can save the model name and exchange the file demo.py in the restormer repository to demo.py here. 
 To test a single image, change to the pytorch181 enviroment and run:
 ```
 python demo.py --task Motion_Deblurring --input_dir <img_dir> --result_dir <result_dir> --model_name <model_name>
